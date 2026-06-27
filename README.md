@@ -1,12 +1,33 @@
-# student-performance-prediction-ml
-This project aims to use Knowledge Discovery and Data Mining techniques to predict student 
-academic achievement (pass or fail) based on educational, behavioral, and socio-economic factors. A dataset 
-containing 6,607 students and 21 variables, including attendance, study habits, parental 
-involvement, sleep, and other relevant indicators, was used in the analysis. The methodology 
-includes data understanding, data cleaning (handling missing values and outliers), encoding 
-categorical variables, feature selection and dataset balancing. Machine learning models used 
-include K-Nearest Neighbors (KNN), Naïve Bayes (NB), Decision Tree, and ensemble methods 
-like Bagging and Random Forest. The ensemble methods dominated the results by showing the 
-best predictive accuracy, also, attendance and hours studied showed the most influence on 
-academic performance compared to the other factors. The study shows how machine learning 
-techniques can help as an early warning for academically at-risk students to support intervention. 
+1. Project Overview
+This project predicts student academic performance using machine learning techniques.
+The objective is to identify the factors that most influence student success and compare multiple classification models.
+
+
+2. Dataset
+6,607 students
+21 variables
+
+Target:
+Pass / Fail
+
+
+3. Methods
+Data Cleaning
+Missing Value Treatment
+Outlier Detection
+Feature Selection
+SMOTE
+Model Evaluation
+
+
+4. Models
+KNN
+Naive Bayes
+Decision Tree
+Bagging
+Random Forest
+
+
+5. Key Findings
+Attendance and study hours were the strongest predictors of success.
+Ensemble methods dominated accuracy, while Naive bayes dominated recall
